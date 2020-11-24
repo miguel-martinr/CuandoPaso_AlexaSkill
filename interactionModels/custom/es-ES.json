@@ -1,0 +1,59 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "en qué año pasó",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "slots": [],
+          "samples": [
+            "un dato",
+            "un dato del espacio",
+            "dime un dato",
+            "dime un dato del espacio",
+            "dame un dato",
+            "dame un dato del espacio",
+            "dime una",
+            "dime algo",
+            "dime una curiosidad"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "numberSlot",
+              "type": "AMAZON.FOUR_DIGIT_NUMBER"
+            }
+          ],
+          "samples": [
+            "La respuesta es {numberSlot}",
+            "Es {numberSlot}",
+            "En {numberSlot}",
+            "En el año {numberSlot}",
+            "Año {numberSlot}",
+            "La respuesta es el {numberSlot}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "4"
+}
