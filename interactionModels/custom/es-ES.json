@@ -1,0 +1,111 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "juego cuando pasó",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "No",
+            "Cancelar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Para",
+            "Detente"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "numberSlot",
+              "type": "AMAZON.FOUR_DIGIT_NUMBER"
+            }
+          ],
+          "samples": [
+            "La respuesta es {numberSlot}",
+            "Es {numberSlot}",
+            "En {numberSlot}",
+            "En el año {numberSlot}",
+            "Año {numberSlot}",
+            "La respuesta es el {numberSlot}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "claro",
+            "venga",
+            "sí"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": [
+            "vuelve a decirlo",
+            "dime otra vez",
+            "repite de nuevo",
+            "repite",
+            "otra vez"
+          ]
+        },
+        {
+          "name": "ClueIntent",
+          "slots": [],
+          "samples": [
+            "dame una pista",
+            "una pista",
+            "dime una pista",
+            "más información",
+            "ni idea"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": [
+            "pasapalabra",
+            "siguiente",
+            "siguiente pregunta",
+            "dime la siguiente",
+            "paso palabra",
+            "otra"
+          ]
+        },
+        {
+          "name": "PendingIntent",
+          "slots": [],
+          "samples": [
+            "pendiente",
+            "dime la pendiente",
+            "dime la pregunta pendiente",
+            "cual era la pregunta pendiente"
+          ]
+        },
+        {
+          "name": "ResetHighestScoreIntent",
+          "slots": [],
+          "samples": [
+            "resetea el podio",
+            "reinicia el podio",
+            "resetea el puntaje máximo",
+            "reinicia el puntaje",
+            "reinicia el puntaje máximo"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "27"
+}
